@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import "DemoClass.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        DemoClass *d = [DemoClass new];
+        [d run];
     }
     return 0;
 }
